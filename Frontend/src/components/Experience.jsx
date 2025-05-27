@@ -26,9 +26,9 @@ function Experience() {
 
               <div>
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-5">
-                    <h1 className="font-semibold text-[1rem] md:text-[1.2rem]">
-                      Crudsy It Solution
+                  <div className="flex items-center md:gap-5 gap-2">
+                    <h1 className="font-semibold text-[1rem] md:text-[1.1rem]">
+                      Crudsy It Solutions
                     </h1>
                     <Link to="https://drive.google.com/file/d/16JRyRsJcSxrTbX8b0R7aKfVcev_UfME7/view?usp=drive_link">
                       <FiExternalLink className="md:text-[1.2rem] text-[1rem] transition-all duration-200 hover:scale-110 cursor-pointer " />
