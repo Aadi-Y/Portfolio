@@ -40,5 +40,12 @@
         "Certificate_Timeline": "May 2025",
         "Certificate_Organitation":"Spoken tutorial Project, IIT Bombay",
         "Certificate_Credintial": "https://drive.google.com/file/d/13p7Pwxjj9O4Z5k1L-4edczpMfbSQFJCD/view?usp=drive_link"
+    },
+    {
+        "Certificate_Id" : "7",
+        "Certificate_Title" : "Introduction to Industry 4.0 and Industrial Internet of things",
+        "Certificate_Timeline": "Apr 2025",
+        "Certificate_Organitation":"NPTEL",
+        "Certificate_Credintial":"https://drive.google.com/file/d/1esalr4u8FNhD-KBRmlGvlhsvmzJBdBsF/view?usp=sharing"
     }
 ]
