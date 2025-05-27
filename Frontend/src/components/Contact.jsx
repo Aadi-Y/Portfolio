@@ -54,7 +54,7 @@ function Contact() {
 
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:8000/send_email", {
+      const response = await fetch("https://profolio-backend-sepia.vercel.app/send_email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
