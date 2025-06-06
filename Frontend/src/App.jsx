@@ -12,10 +12,12 @@ import Certification from "./components/Certification"
 import Counting from "./HelpingComponent/Counting"
 import Home from "./Home/Home"
 import Experiment from "./components/Experiment"
+import PulseAnimation from "./Animation/PulseAnimation"
 function App() {
 
   return (
     <>
+    <PulseAnimation/>
       {/* <Experiment/> */}
       <Home/>
     </>

@@ -1,0 +1,224 @@
+
+.pulseAnimation-main-container {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  /* z-index: -1000;  */
+  overflow: hidden;
+  pointer-events: none; 
+} 
+
+.leafIcon1{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: 90%;
+  left: 2%;
+  animation: animate 15s linear infinite;
+
+}
+.leafIcon2{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: 70%;
+  left: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon3{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: 50%;
+  left: 2%;
+  animation: animate 15s linear infinite;
+
+}
+.leafIcon4{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: 30%;
+  left: 7%;
+  animation: animate 15s linear infinite;
+
+}
+.leafIcon5{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon6{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: -10%;
+  left: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon7{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: -30%;
+  left: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon8{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: -50%;
+  left: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon9{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: -70%;
+  left: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon10{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: -90%;
+  left: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon11{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: -110%;
+  left: 2%;
+  animation: animate 15s linear infinite;
+}
+
+
+.leafIcon12{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: 90%;
+  right: 7%;
+  animation: animate 15s linear infinite;
+
+}
+.leafIcon13{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: 70%;
+  right: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon14{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: 50%;
+  right: 7%;
+  animation: animate 15s linear infinite;
+
+}
+.leafIcon15{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: 30%;
+  right: 2%;
+  animation: animate 15s linear infinite;
+
+}
+.leafIcon16{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: 10%;
+  right: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon17{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: -10%;
+  right: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon18{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: -30%;
+  right: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon19{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: -50%;
+  right: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon20{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: -70%;
+  right: 7%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon21{
+  font-size: 2rem;
+  color: gray;
+  position: absolute;
+  bottom: -90%;
+  right: 2%;
+  animation: animate 15s linear infinite;
+}
+.leafIcon22{
+  font-size: 2rem;
+  color: gray;
+  color: orange;
+  position: absolute;
+  bottom: -110%;
+  right: 7%;
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 1;
+  }
+}
+
+@media (max-width:1100px) {
+  .pulseAnimation-sub-container{
+    display: none;
+  }
+}
