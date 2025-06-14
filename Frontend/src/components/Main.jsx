@@ -79,7 +79,7 @@ function Main() {
               </div>
               <div>
                 <button className="py-3 px-9 rounded-2xl font-bold cursor-pointer text-white bg-gradient-to-r from-[#FD6F00] to-[#E46400] hover:scale-115 transition-all duration-500">
-                  Resume
+                  <Link to="https://drive.google.com/file/d/1V7pM0x9CASBE7aZAkuZjJnnCM9Nui3Mj/view?usp=sharing">Resume</Link>
                 </button>
               </div>
             </div>
