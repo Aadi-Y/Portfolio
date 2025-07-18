@@ -1,0 +1,30 @@
+[
+  {
+    "companyName": "Crudsys It Solutions",
+    "timePeriod": "Jan 2025 - Feb 2025",
+    "mode": "Remote",
+    "type": "Intern",
+    "role": "Frontend Developer",
+    "header": "During my internship, I developed the frontend for an ",
+    "content":"eCommerce and a Chess Registration website",
+    "footer":"gaining hands-on experience and enhancing my skills."
+  },
+  {
+    "companyName": "Onekit",
+    "timePeriod": "Mar 2025 - April 2025",
+    "mode": "Remote",
+    "type": "Freelancing",
+    "role": "Frontend Developer",
+    "header": "During my internship, I developed the frontend for an", 
+    "content":"onekit company and their clients",
+    "footer":"gaining hands-on experience and enhancing my skills."
+  },
+  {
+    "companyName": "Crudsys It Solutions",
+    "timePeriod": "Present",
+    "mode": "Remote",
+    "type": "Intern",
+    "role": "Backend Developer",
+    "header": "I am excited to work on real-world projects during this internship and to further enhance my full-stack development skills."
+  }
+]

@@ -9,19 +9,51 @@ import Experience from "../components/Experience";
 import Testing from "../components/Testing";
 import Certification from "../components/Certification";
 import Counting from "../HelpingComponent/Counting";
+import { useRef } from "react";
 
 function Home() {
+  const aboutRef = useRef();
+  const skillRef = useRef();
+  const projectRef = useRef();
+  const contactRef = useRef();
+
+  function onScrollTo(section) {
+    const sectionMap = {
+      about: aboutRef,
+      skills: skillRef,
+      projects: projectRef,
+      contact: contactRef,
+    };
+    sectionMap[section]?.current?.scrollIntoView({ behavior: "smooth" });
+  }
   return (
     <>
-      <Navbar />
+      <Navbar onScrollTo={onScrollTo} />
+
       <Main />
+
       <Counting />
-      <About />
-      <Projects />
+
+      <div ref={aboutRef}>
+        <About />
+      </div>
+
+      <div ref={projectRef}>
+        <Projects />
+      </div>
+
       <Experience />
-      <Skills />
+
+      <div ref={skillRef}>
+        <Skills />
+      </div>
+
       <Certification />
-      <Contact />
+
+      <div ref={contactRef}>
+        <Contact />
+      </div>
+
       <Footer />
     </>
   );

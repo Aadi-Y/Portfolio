@@ -2,6 +2,8 @@ import React from "react";
 import { FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import experiences from "../utils/experince.json";
+
 function Experience() {
   return (
     <>
@@ -15,46 +17,50 @@ function Experience() {
           </section>
 
           <section className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 w-[97%] md:w-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 200 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, ease: "easeInOut" }}
-              viewport={{ once: true }}
-              className="border-amber-500 border-1 p-3 rounded-xl bg-[#2A2828] flex gap-2"
-            >
-              <div className="border-2 border-amber-500 h-auto"></div>
+            {experiences.map((experience, index) => (
+              <motion.div
+                initial={{ opacity: 0, y: 200 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeInOut" }}
+                viewport={{ once: true }}
+                className="border-amber-500 border-1 p-3 rounded-xl bg-[#2A2828] flex gap-2"
+              >
+                <div className="border-2 border-amber-500 h-auto"></div>
 
-              <div>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center md:gap-5 gap-1">
-                    <h1 className="font-semibold text-[0.95rem] md:text-[1.2rem]">
-                      Crudsys It Solutions
-                    </h1>
-                    <Link to="https://drive.google.com/file/d/16JRyRsJcSxrTbX8b0R7aKfVcev_UfME7/view?usp=drive_link">
-                      <FiExternalLink className="md:text-[1.2rem] text-[1rem] transition-all duration-200 hover:scale-110 cursor-pointer " />
-                    </Link>
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center md:gap-5 gap-1">
+                      <h1 className="font-semibold text-[0.95rem] md:text-[1.2rem]">
+                        {experience.companyName}
+                      </h1>
+                      <Link to="https://drive.google.com/file/d/16JRyRsJcSxrTbX8b0R7aKfVcev_UfME7/view?usp=drive_link">
+                        <FiExternalLink className="md:text-[1.2rem] text-[1rem] transition-all duration-200 hover:scale-110 cursor-pointer " />
+                      </Link>
+                    </div>
+                    <h2 className="text-amber-500 text-[0.9rem] md:text-[1rem]">
+                      {experience.timePeriod}
+                    </h2>
                   </div>
-                  <h2 className="text-amber-500 text-[0.9rem] md:text-[1rem]">Jan 2025 - Feb 2025</h2>
+                  <h1 className="text-[0.9rem] md:text-[1rem]">
+                    {experience.mode}
+                  </h1>
+                  <h2 className="underline underline-offset-3 decoration-amber-500 text-[0.9rem] md:text-[1rem]">
+                    {experience.type}
+                  </h2>
+                  <h2 className="text-[0.9rem] md:text-[1rem]">
+                    Role :{" "}
+                    <span className="text-amber-500">{experience.role}</span>
+                  </h2>
+                  <p className="text-[0.9rem] md:text-[1rem]">
+                    {experience.header}{" "}
+                    <span className="text-amber-500">{experience.content}</span>
+                    , {experience.footer}
+                  </p>
                 </div>
-                <h1 className="text-[0.9rem] md:text-[1rem]">Remote</h1>
-                <h2 className="underline underline-offset-3 decoration-amber-500 text-[0.9rem] md:text-[1rem]">
-                  Intern
-                </h2>
-                <h2 className="text-[0.9rem] md:text-[1rem]">
-                  Role :{" "}
-                  <span className="text-amber-500">Frontend Developer</span>
-                </h2>
-                <p className="text-[0.9rem] md:text-[1rem]">
-                  During my internship, I developed the frontend for an{" "}
-                  <span className="text-amber-500">
-                    eCommerce and a Chess Registration website
-                  </span>
-                  , gaining hands-on experience and enhancing my skills.
-                </p>
-              </div>
-            </motion.div>
+              </motion.div>
+            ))}
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 200 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeInOut" }}
@@ -86,7 +92,7 @@ function Experience() {
                   , gaining hands-on experience and enhancing my skills.
                 </p>
               </div>
-            </motion.div>
+            </motion.div> */}
           </section>
         </section>
       </section>

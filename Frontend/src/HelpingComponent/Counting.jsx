@@ -5,8 +5,8 @@ function Counting1() {
   const [dsaCount, setDsaCount] = useState(0);
   const sectionRef = useRef(null);
 
-  const linkedInFinal = 799;
-  const dsaFinal = 75;
+  const linkedInFinal = 833;
+  const dsaFinal = 122;
 
   useEffect(() => {
     const observer = new IntersectionObserver(

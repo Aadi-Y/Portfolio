@@ -1,5 +1,5 @@
 import logoMark from "../assets/images/logo.png";
-function Navbar(){
+function Navbar({onScrollTo}){
     return(
         <>
             <section className="bg-black w-[100vw] fixed z-999 top-0">
@@ -12,10 +12,10 @@ function Navbar(){
                         <nav>
                             <ul className="flex gap-8 items-end">
                                 <li className="text-[1.2rem] text-amber-500 font-bold cursor-pointer">Home</li>
-                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer">About me</li>
-                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer">Skills</li>
-                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer">Projects</li>
-                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer">Contact me</li>
+                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer" onClick={()=>onScrollTo('about')}>About me</li>
+                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer" onClick={()=>onScrollTo('skills')}>Skills</li>
+                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer" onClick={()=>onScrollTo('projects')}>Projects</li>
+                                <li className="text-[1.2rem] text-[#2A2828] font-bold hover:text-amber-500 transition-all duration-400 cursor-pointer" onClick={()=>onScrollTo('contact')}>Contact me</li>
                             </ul>
                         </nav>
                     </div>
