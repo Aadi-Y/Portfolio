@@ -33,7 +33,7 @@ function Experience() {
                       <h1 className="font-semibold text-[0.95rem] md:text-[1.2rem]">
                         {experience.companyName}
                       </h1>
-                      <Link to="https://drive.google.com/file/d/16JRyRsJcSxrTbX8b0R7aKfVcev_UfME7/view?usp=drive_link">
+                      <Link to={experience.crendials}>
                         <FiExternalLink className="md:text-[1.2rem] text-[1rem] transition-all duration-200 hover:scale-110 cursor-pointer " />
                       </Link>
                     </div>
