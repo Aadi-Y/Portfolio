@@ -63,7 +63,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div className="flex gap-5">
+          <div className="flex flex-col md:flex-row gap-5">
             <div className="flex items-center gap-3">
               <MdEmail className="text-[1.2rem]" />
               <p className="text-[.9rem] md:text-[1rem]">aadithya.y5555@gmail.com</p>
