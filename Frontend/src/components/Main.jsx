@@ -74,7 +74,7 @@ function Main() {
                   Connect
                 </button> */}
                 <button className="py-3 px-9 rounded-2xl font-bold cursor-pointer text-white bg-gradient-to-r from-[#FD6F00] to-[#E46400] hover:scale-115 transition-all duration-500">
-                  Connect
+                  <Link to="https://www.linkedin.com/in/aadithya-y/">Contect</Link>
                 </button>
               </div>
               <div>

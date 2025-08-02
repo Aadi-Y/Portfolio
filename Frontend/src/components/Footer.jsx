@@ -68,7 +68,7 @@ function Footer() {
               <MdEmail className="text-[1.2rem]" />
               <p className="text-[.9rem] md:text-[1rem]">aadithya.y5555@gmail.com</p>
             </div>
-            <div className="flex  items-center gap-3 text-center">
+            <div className="flex  items-center gap-3 justify-center">
               <RiPhoneFill className="text-[1.2rem]" />
               <p className="text-[.9rem] md:text-[1rem]">9629138036</p>
             </div>
