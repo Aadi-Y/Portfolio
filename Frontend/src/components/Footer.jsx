@@ -22,7 +22,7 @@ function Footer() {
           </div>
           <div>
             <nav>
-              <ul className="md:flex items-center justify-between gap-6 mb-5 text-[.9rem] md:text-[1rem] hidden">
+              <ul className="flex items-center justify-between gap-6 mb-5 text-[.9rem] md:text-[1rem]">
                 <li className="cursor-pointer hover:text-amber-500 transition-all duration-200">
                   Home
                 </li>
@@ -32,10 +32,10 @@ function Footer() {
                 <li className="cursor-pointer hover:text-amber-500 transition-all duration-200">
                   Skills
                 </li>
-                <li className="cursor-pointer hover:text-amber-500 transition-all duration-200">
+                <li className="cursor-pointer hover:text-amber-500 transition-all duration-200 md:flex hidden">
                   Projects
                 </li>
-                <li className="cursor-pointer hover:text-amber-500 transition-all duration-200">
+                <li className="cursor-pointer hover:text-amber-500 transition-all duration-200 md:flex hidden">
                   Contact me
                 </li>
               </ul>
