@@ -44,7 +44,7 @@ function Counting1() {
   return (
     <section ref={sectionRef} className="text-white bg-black w-[100vw] pt-10 md:py-10 ">
       <section className="xl:w-[90%] lg:w-[85%] w-[95%] flex-col md:flex-row m-auto flex items-center gap-5">
-        <div className="flex p-4 gap-2 bg-[#2A2828] rounded-lg w-[50%] md:w-auto">
+        <div className="flex p-4 gap-2 bg-[#2A2828] rounded-lg w-[80%] md:w-auto">
           <div className="h-auto border-2 border-amber-500"></div>
           <div className="  flex flex-col items-center justify-center">
             <h1>LinkedIn Connections</h1>
