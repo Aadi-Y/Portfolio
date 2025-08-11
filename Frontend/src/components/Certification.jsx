@@ -7,7 +7,7 @@ function Certification() {
   return (
     <>
       <section className="bg-black text-white h-auto w-[100vw]">
-        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto pb-10">
+        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto pb-10 relative">
           <section>
             <div className="border-amber-500 flex p-2 w-30 rounded-md mb-5 bg-[#2A2828]">
               <div className="w-1 bg-amber-500 mr-2"></div>

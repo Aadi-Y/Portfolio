@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <>
-      <section className="h-auto bg-black text-white flex items-center overflow-hidden ">
-        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto flex items-center flex-col md:flex-row h-[100%] pt-10 md:pt-0 gap-25 md:gap-0">
+      <section className="h-auto bg-black text-white flex items-center overflow-hidden">
+        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto flex items-center flex-col md:flex-row h-[100%] pt-10 md:pt-0 gap-25 md:gap-0 relative">
           <section className="md:w-[50%] flex flex-col">
             <div>
               <div className="border-amber-500 flex p-2 w-30 rounded-md mb-5 bg-[#2A2828]">

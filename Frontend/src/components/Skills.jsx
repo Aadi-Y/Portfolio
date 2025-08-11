@@ -31,7 +31,7 @@ function Skills() {
   return (
     <>
       <section className="h-auto w-[100vw] bg-[#000000] flex justify-between flex-col">
-        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto">
+        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto relative">
            <section className="w-[100%] m-auto">
           <div className="border-amber-500 flex p-2 w-30 rounded-md mb-5 bg-[#2A2828]">
             <div className="w-1 bg-amber-500 mr-2"></div>

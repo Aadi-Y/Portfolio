@@ -83,7 +83,7 @@ function Contact() {
   return (
     <>
       <section className="md:h-[75vh] h-auto w-[100vw] bg-black flex md:pb-0 pb-10">
-        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto flex flex-col md:gap-3 gap-2">
+        <section className="xl:w-[70%] lg:w-[85%] w-[95%] m-auto flex flex-col md:gap-3 gap-2 relative">
           <div className="border-amber-500 flex p-2 w-30 rounded-md bg-[#2A2828]">
             <div className="w-1 bg-amber-500 mr-2"></div>
             <h1 className="text-white font-medium">Contact</h1>

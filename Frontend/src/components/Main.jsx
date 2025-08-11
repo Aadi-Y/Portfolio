@@ -15,7 +15,7 @@ function Main() {
   return (
     <>
       <section className="h-auto w-[100vw] flex bg-black md:pt-10 md:pb-20">
-        <section className="xl:w-[70%] lg:w-[85%] md:w-[95%] w-[97%] pt-50 mx-auto h-full flex flex-col md:flex-row items-center justify-center gap-10 md:gap-2">
+        <section className="xl:w-[70%] lg:w-[85%] md:w-[95%] w-[97%] pt-50 mx-auto h-full flex flex-col md:flex-row items-center justify-center gap-10 md:gap-2 relative">
           <section className="w-[100%] sm:w-[60%] flex items-center justify-center md:justify-start">
             <div className="xl:h-110 xl:w-110  lg:h-105 lg:w-105 md:w-85 md:h-85 w-80 h-80 bg-gradient-to-t from-[#FD6F00] to-[#E46400] rounded-full  flex items-center justify-between border-black shadow-lg shadow-amber-500">
               <div className="xl:h-105 xl:w-105 lg:h-100 lg:w-100 md:w-80 md:h-80 w-75 h-75 bg-black rounded-full  m-auto flex items-center">
@@ -79,7 +79,7 @@ function Main() {
               </div>
               <div>
                 <button className="py-3 px-9 rounded-2xl font-bold cursor-pointer text-white bg-gradient-to-r from-[#FD6F00] to-[#E46400] hover:scale-115 transition-all duration-500">
-                  <Link to="https://drive.google.com/file/d/1V7pM0x9CASBE7aZAkuZjJnnCM9Nui3Mj/view?usp=sharing">Resume</Link>
+                  <Link to="https://drive.google.com/file/d/1nZUA9UHsMpO-cplJhMs2AtLoCFRSF3y-/view?usp=sharing">Resume</Link>
                 </button>
               </div>
             </div>

@@ -13,7 +13,7 @@ function Footer() {
   return (
     <>
       <section className="h-[40vh] w-[100vw] bg-[#2A2828] text-white flex ">
-        <section className="xl:w-[70%] lg:w-[85%] w-[97%] m-auto flex items-center justify-center flex-col">
+        <section className="xl:w-[70%] lg:w-[85%] w-[97%] m-auto flex items-center justify-center flex-col relative">
           <div className="flex relative mb-3 mr-13 md:mr-0">
             <img src={logoMark} alt="" className="h-15" />
             <h1 className="text-3xl text-amber-500 font-bold absolute left-18 bottom-0">

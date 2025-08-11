@@ -12,7 +12,7 @@ function Experiment() {
   return (
     <>
       <section className="bg-black w-[100vw] fixed z-999 top-0">
-        <section className="w-[97%] xl:w-[70%] lg:w-[85%] flex justify-between m-auto items-end pt-6 pb-3">
+        <section className="w-[97%] xl:w-[70%] lg:w-[85%] flex justify-between m-auto items-end pt-6 pb-3 relative">
           <div className="flex relative">
             <img src={logoMark} alt="" className="h-15" />
             <h1 className="text-3xl text-amber-500 font-bold absolute left-18 bottom-0">

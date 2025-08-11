@@ -48,4 +48,32 @@ body {
   }
 }
 
+@theme {
+  @keyframes leafMoving {
+    0% {
+      opacity: 0;
+      top: -10%;
+      transform: translateX(20px) rotate(0deg);
+    }
+    10% {
+      opacity: 1;
+    }
+    25% {
+      transform: translateX(-20px) rotate(60deg);
+    }
+    50% {
+      transform: translateX(20px) rotate(120deg);
+    }
+    75% {
+      transform: translateX(-20px) rotate(180deg);
+    }
+    100% {
+      top: 110%;
+      transform: translateX(20px) rotate(240deg);
+    }
+  }
+
+  --animate-move: leafMoving 15s linear infinite;
+}
+
 
