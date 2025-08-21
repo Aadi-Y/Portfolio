@@ -1,4 +1,4 @@
-import Profile from "../assets/images/Aadi-Profile-1.png";
+import Profile from "../assets/images/primaryImage.png";
 import Typed from "typed.js";
 
 import { Link } from "react-router-dom";
@@ -23,7 +23,7 @@ function Main() {
                   <img
                     src={Profile}
                     alt=""
-                    className="absolute md:bottom-10 md:left-5 md:h-90 w-65 h-85  bottom-10 left-3 lg:bottom-10 lg:h-110 lg:w-80 xl:h-120 xl:w-85 lg:left-8"
+                    className="absolute md:bottom-10 md:left-0 md:h-90 w-65 h-85  bottom-10 left-0 lg:bottom-10 lg:h-110 lg:w-80 xl:h-120 xl:w-85 lg:left-3"
                   />
                 </div>
               </div>

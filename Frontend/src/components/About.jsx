@@ -1,4 +1,4 @@
-import Profile from "../assets/images/Aadi-Profile-2.png";
+import Profile from "../assets/images/secondaryImage.png";
 import { motion } from "framer-motion";
 function About() {
   return (
@@ -39,7 +39,7 @@ function About() {
           <section className="md:w-[50%] flex items-end justify-end h-[100%] md:pt-18 lg:pt-35 lg:overflow-hidden">
             <div className="lg:w-95 lg:h-120 w-85 h-110 border-8 border-amber-600 rounded-t-full flex items-end justify-center">
               <div className="lg:w-87 lg:h-110 w-77 h-100 rounded-t-full  m-auto relative flex items-center justify-center backdrop-blur-5xl bg-white/15 border-white/15">
-                <img src={Profile} alt="" className="absolute bottom-25" />
+                <img src={Profile} alt="" className="absolute bottom-25 md:h-130 w-100 left-2 h-110" />
                 <div className="lg:w-95 lg:h-40 w-95 h-40 bg-black  absolute -bottom-15"></div>
               </div>
             </div>
